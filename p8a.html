@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Práctica 8a JS</title>
+   <script>
+		var palabra = "Amigo";
+		alert(palabra.toLowerCase());
+		alert(palabra.replace("A","a"));
+		function myFunction() {
+		  var str = "Amigo";
+		  var s = str.slice(1,5);
+		  var res = str.charAt(0).toLowerCase();
+		  document.getElementById("demo").innerHTML = res + s;
+		}
+   </script>
+ </head>
+ <body>
+	<button onclick="myFunction()">Ver</button>
+	<p id="demo"></p>
+ </body>
+</html>
